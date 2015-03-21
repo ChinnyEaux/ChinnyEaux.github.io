@@ -1,0 +1,102 @@
+body {
+	font-family: arial;
+	color: red;
+	margin: 0;
+}
+
+header { 
+	background: teal;
+	color: white;
+	text-align: center;
+	background: url(../images/background.jpg);
+	background-attachment: fixed;
+	background-size: cover; 
+
+
+}
+
+a {color: #3DD49F;
+}
+
+#about {
+	background: goldenrod;
+}
+.about{
+	background: yellow;
+}
+
+img {
+	border: solid 9px black;
+}
+
+header img {
+	border: 1px white solid;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 60px;
+	color: black;
+	margin: 20px 0;
+}
+
+.links h2 {
+	color: pink;
+}
+
+.padded {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.contact {
+	text-align: center;
+	background: url(../images/dark_embroidery.png);
+}
+
+.contact h2 {
+	color: white;
+}
+
+.contact img {
+	border: none;
+	width: 100px;
+	height: auto;
+	margin: 1px;
+	border-radius: 50%;
+}
+
+.contact img:hover {
+	opacity: .8;
+	border-radius: 40%;
+}
+
+.websites {
+	padding: 0;
+}
+
+.websites li {
+	list-style: none;
+	display: inline-block;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.websites a {
+	background: blue;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 30px;
+}
+
+.websites a:hover {
+	background: green;
+}
+
+h1, h2 {
+	font-family: 'Limelight', cursive;
+}
